@@ -8,14 +8,14 @@
 在计算机上打开安装程序，然后按照安装说明进行操作。
 >注意：有关CLI安装的更多帮助，请查看Cloud Foundry CLI安装文档。
 
-Installers and compressed binaries
+Installers and compressed binaries  
 | | Mac OS X 64 bit | Windows 64 bit | Linux 64 bit |  
 | ---| --- |---| ---|  
 | Installers | [pkg](https://packages.cloudfoundry.org/stable?release=macosx64&source=github) | [zip](https://packages.cloudfoundry.org/stable?release=windows64&source=github) | [rpm](https://packages.cloudfoundry.org/stable?release=redhat64&source=github) / [deb](https://packages.cloudfoundry.org/stable?release=debian64&source=github) |  
 | Binaries | [tgz](https://packages.cloudfoundry.org/stable?release=macosx64-binary&source=github) | [zip](https://packages.cloudfoundry.org/stable?release=windows64-exe&source=github) | [tgz](https://packages.cloudfoundry.org/stable?release=linux64-binary&source=github) |
 
 ### 2. 通过CLI连接到Cloud Region
-首先，找到您所在地区的正确API网址。 从此表中选择正确的区域。可以在CF Space里面查到自己的API point.
+首先，找到您所在地区的正确API网址。 从此表中选择正确的区域。可以在CF Space里面查到自己的API point.  
 |Region|	URL|  
 |---|---|  
 |US East (VA) running on AWS | https://api.cf.us10.hana.ondemand.com |  
