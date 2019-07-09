@@ -1,7 +1,7 @@
 ## 在SAP Cloud Platform（SCP)获取免费测试账户
 在SCP中注册账户登陆
 ### 1.登陆SAP Cloud Trial官网注册 
-登入SAP Cloud Platform Cockpit（https://account.hanatrial.ondemand.com/cockpit/） 点击注册，网页指向SAP官网（https://www.sap.com）
+登入SAP Cloud Platform Cockpit https://account.hanatrial.ondemand.com/cockpit 点击注册，网页指向SAP官网 https://www.sap.com 
 ![r1](./img/r1.png)
 在官网的右上角，点击人型icon,进行注册  
 ![r2](./img/r2.png)    
