@@ -1,0 +1,7 @@
+---
+applications:
+- name: myapp
+  random-route: true
+  path: myapp
+  memory: 128M
+  host: myapp-node-1
