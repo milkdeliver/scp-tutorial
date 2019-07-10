@@ -1,4 +1,13 @@
 
+<!-- TOC -->
+
+- [为Cloud Foundry Development准备SAP Web IDE](#为cloud-foundry-development准备sap-web-ide)
+  - [1. 打开你的SAP Cloud Platform账户](#1-打开你的sap-cloud-platform账户)
+  - [2. 进入Services](#2-进入services)
+  - [3. 打开Web IDE Full-Stack](#3-打开web-ide-full-stack)
+  - [4. 设置Cloud Foundry的配置](#4-设置cloud-foundry的配置)
+
+<!-- /TOC -->
 # 为Cloud Foundry Development准备SAP Web IDE
 在SAP Cloud Platform中启用并打开SAP Web IDE Full-Stack，并配置要部署的CF API端点。
 
@@ -15,12 +24,12 @@
 ![w2](./img/w2.png)
 ![w3](./img/w3.png)
 
-## 打开Web IDE Full-Stack
+## 3. 打开Web IDE Full-Stack
 在WebIDE的界面，底部有一个`Go to Service`按钮，进入到WebIDE页面。
 ![w4](./img/w4.png)
 ![w5](./img/w5.png)
 
-## 设置Cloud Foundry的配置
+## 4. 设置Cloud Foundry的配置
 1. 单击左侧栏中的齿轮图标以打开设置菜单。 
 2. 然后，选择Cloud Foundry设置。
 3. 根据子帐户所在的数据中心选择API point。 单击下拉控件，将向您建议最常见的端点。 您可以在帮助门户中查看所有端点的列表。 
