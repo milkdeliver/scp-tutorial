@@ -9,7 +9,7 @@
     - [2. 通过模板添加Java Module](#2-通过模板添加java-module)
   - [运行、测试、部署你的Java app](#运行测试部署你的java-app)
     - [1. 运行你的Java app](#1-运行你的java-app)
-    - [3. 在Cloud Foundry中确认app运行状态](#3-在cloud-foundry中确认app运行状态)
+    - [2. 在Cloud Foundry中确认app运行状态](#2-在cloud-foundry中确认app运行状态)
   - [Debug你的Java app](#debug你的java-app)
     - [1. 在程序中设置一个断点](#1-在程序中设置一个断点)
     - [2. 设置debugger选项](#2-设置debugger选项)
@@ -81,7 +81,7 @@
 ![j15](./img/j15.png)
 ![j16](./img/j16.png)
 
-### 3. 在Cloud Foundry中确认app运行状态
+### 2. 在Cloud Foundry中确认app运行状态
 此时，我们可以去Cloud Foundry的Space环境中查询app运行状态。
 打开SAP Cloud Platform Cockpit，然后单击Cloud Foundry试用磁贴。  点击进去，进入Global Accounts.
 ![j18](./img/j18.png)
