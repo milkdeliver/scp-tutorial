@@ -1,5 +1,12 @@
-## 配置Cloud Foundry的使用环境，使用命令行操作CF账户。
+<!-- TOC -->
 
+- [配置Cloud Foundry的使用环境，使用命令行操作CF账户。](#%E9%85%8D%E7%BD%AECloud-Foundry%E7%9A%84%E4%BD%BF%E7%94%A8%E7%8E%AF%E5%A2%83%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%93%8D%E4%BD%9CCF%E8%B4%A6%E6%88%B7)
+  - [1.下载并安装CF命令行](#1%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85CF%E5%91%BD%E4%BB%A4%E8%A1%8C)
+  - [2. 通过CLI连接到Cloud Region](#2-%E9%80%9A%E8%BF%87CLI%E8%BF%9E%E6%8E%A5%E5%88%B0Cloud-Region)
+  - [3. 使用CLI登陆](#3-%E4%BD%BF%E7%94%A8CLI%E7%99%BB%E9%99%86)
+
+<!-- /TOC -->
+## 配置Cloud Foundry的使用环境，使用命令行操作CF账户。
 ### 1.下载并安装CF命令行
 从Cloud Foundry网站下载最新的命令行界面（CLI）。 使用以下URL：https：//github.com/cloudfoundry/cli#downloads。
 

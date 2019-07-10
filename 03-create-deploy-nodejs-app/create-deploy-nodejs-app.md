@@ -1,5 +1,26 @@
+<!-- TOC -->
+
+- [创建部署第一个node.js app](#创建部署第一个nodejs-app)
+  - [创建基础的 Node.js App](#创建基础的-nodejs-app)
+    - [1. 准备基础环境](#1-准备基础环境)
+    - [2.验证安装情况](#2验证安装情况)
+    - [3. 创建你的application](#3-创建你的application)
+    - [3. 创建`server.js`文件，作为服务器放在myapp文件夹下面，代码如下](#3-创建serverjs文件作为服务器放在myapp文件夹下面代码如下)
+    - [4. 安装依赖](#4-安装依赖)
+    - [5. 开启你的应用](#5-开启你的应用)
+  - [使用你的Cloud Foundry CLI部署你的Node.js App](#使用你的cloud-foundry-cli部署你的nodejs-app)
+    - [1. 创建mainfest文件](#1-创建mainfest文件)
+    - [2 部署app到Cloud Foundry Space中](#2-部署app到cloud-foundry-space中)
+  - [将日志添加到Node.js应用程序](#将日志添加到nodejs应用程序)
+    - [1. 添加一些日志信息](#1-添加一些日志信息)
+    - [2. 删除已存在的应用(不推荐使用)](#2-删除已存在的应用不推荐使用)
+    - [3. Push更新后的应用（推荐使用）](#3-push更新后的应用推荐使用)
+    - [4. 转储应用程序日志](#4-转储应用程序日志)
+    - [5. 应用程序日志数据流](#5-应用程序日志数据流)
+
+<!-- /TOC -->
 # 创建部署第一个node.js app
-![n0](./img/n0.png)
+![n0](./img/n1.png)
 
 ## 创建基础的 Node.js App
 创建一个基础的Node.js app，在本机运行
@@ -11,11 +32,11 @@
 
 可以自己下载库并组织目录并以此方式开始。 但是，随着您的项目（以及依赖项列表）的增长，这将很快变得混乱。 它还使协作和共享代码变得更加困难。
 
-您可以在操作系统上使用软件包管理器（推荐）或使用安装程序：[download installer](https://nodejs.org/en/download/)  
+您可以在操作系统上使用软件包管理器（推荐）或使用安装程序：[Download installer](https://nodejs.org/en/download/)  
 
 软件包管理器安装
 **Windows安装**
-安装Chocolatey(windows package manager) https://chocolatey.org/  
+安装[Chocolatey](https://chocolatey.org)(windows package manager)  
 以管理员身份打开CMD
 ![n1](./img/n1.png)
 
@@ -29,8 +50,7 @@ choco install nodejs
 ```
 
 **Mac安装**
-安装Homebrew（Mac包管理器），如果尚未安装 https://brew.sh/
-在Mac terminal里面输入bash,安装brew
+安装[Homebrew](https://brew.sh)（Mac包管理器），如果尚未安装, 在Mac terminal里面输入bash,安装brew
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```

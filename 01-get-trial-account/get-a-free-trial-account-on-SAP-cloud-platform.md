@@ -1,3 +1,15 @@
+<!-- TOC -->
+
+- [在SAP Cloud Platform（SCP)获取免费测试账户](#%E5%9C%A8SAP-Cloud-PlatformSCP%E8%8E%B7%E5%8F%96%E5%85%8D%E8%B4%B9%E6%B5%8B%E8%AF%95%E8%B4%A6%E6%88%B7)
+  - [1.登陆SAP Cloud Trial官网注册](#1%E7%99%BB%E9%99%86SAP-Cloud-Trial%E5%AE%98%E7%BD%91%E6%B3%A8%E5%86%8C)
+  - [2. 在sap.com上注册](#2-%E5%9C%A8sapcom%E4%B8%8A%E6%B3%A8%E5%86%8C)
+  - [3.激活你的账号](#3%E6%BF%80%E6%B4%BB%E4%BD%A0%E7%9A%84%E8%B4%A6%E5%8F%B7)
+  - [4.访问你的SAP Cloud Platform cockpit](#4%E8%AE%BF%E9%97%AE%E4%BD%A0%E7%9A%84SAP-Cloud-Platform-cockpit)
+  - [5. 申请Cloud Foundry账户](#5-%E7%94%B3%E8%AF%B7Cloud-Foundry%E8%B4%A6%E6%88%B7)
+  - [6.激活Cloud Foundry账户，创建Space](#6%E6%BF%80%E6%B4%BBCloud-Foundry%E8%B4%A6%E6%88%B7%E5%88%9B%E5%BB%BASpace)
+  - [7.分配资源：Subaccount和Space](#7%E5%88%86%E9%85%8D%E8%B5%84%E6%BA%90Subaccount%E5%92%8CSpace)
+
+<!-- /TOC -->
 ## 在SAP Cloud Platform（SCP)获取免费测试账户
 在SCP中注册账户登陆
 ### 1.登陆SAP Cloud Trial官网注册 
@@ -42,7 +54,7 @@
 ![r16](./img/r16.png)    
 
 
-#### 6.激活Cloud Foundry账户，创建Space
+### 6.激活Cloud Foundry账户，创建Space
 进入cf subaccount, 激活Cloud Foundry账户
 ![r17](./img/r17.png)    
 ![r18](./img/r18.png)  
@@ -53,7 +65,7 @@
 ![r21](./img/r21.png)    
 
 
-#### 7.分配资源：Subaccount和Space
+### 7.分配资源：Subaccount和Space
 为subaccount分配资源,点击global account,进入Entitlements里面分配资源。
 ![r22](./img/r22.png)
 ![r23](./img/r23.png)    
