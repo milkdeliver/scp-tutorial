@@ -1,4 +1,5 @@
 # 创建部署第一个node.js app
+![n0](./img/n0.png)
 
 ## 创建基础的 Node.js App
 创建一个基础的Node.js app，在本机运行
