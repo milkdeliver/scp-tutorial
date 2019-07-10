@@ -1,6 +1,6 @@
 <!-- TOC -->
 
-- [创建并不熟第一个Java App](#创建并不熟第一个java-app)
+- [创建第一个Java App](#创建第一个java-app)
   - [使用MTA模板准备一个Java app](#使用mta模板准备一个java-app)
     - [1. 从模板中创建一个新项目](#1-从模板中创建一个新项目)
     - [2. 找到你的项目](#2-找到你的项目)
@@ -11,12 +11,12 @@
     - [1. 运行你的Java app](#1-运行你的java-app)
     - [3. 在Cloud Foundry中确认app运行状态](#3-在cloud-foundry中确认app运行状态)
   - [Debug你的Java app](#debug你的java-app)
-    - [1. 添加一个断电在程序中](#1-添加一个断电在程序中)
+    - [1. 在程序中设置一个断点](#1-在程序中设置一个断点)
     - [2. 设置debugger选项](#2-设置debugger选项)
     - [3. 打开Debugger](#3-打开debugger)
 
 <!-- /TOC -->
-# 创建并不熟第一个Java App
+# 创建第一个Java App
 
 ## 使用MTA模板准备一个Java app 
 使用多目标应用程序（[Mult-Target Application - MTA](https://www.sap.com/docs/download/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.pdf)）模板准备构建简单的Java应用程序。
@@ -98,8 +98,8 @@
 ## Debug你的Java app
 运行程序之后，我们肯定有需求对项目进行调试，接下来我们会学习如何使用webIDE进行调试。
 
-### 1. 添加一个断电在程序中
-要使用内置调试器，需要添加断点。 在本教程中，您将添加一个断点。 您需要打开应用程序以添加断点。
+### 1. 在程序中设置一个断点
+要使用内置调试器，需要添加断点。 双击左侧空白处，设置断点。 在本教程中，您将添加一个断点。 您需要打开应用程序以添加断点。
 
 1. 打开 HelloServlet.java文件
 2. 导航到36行，并在此设置断点。  
