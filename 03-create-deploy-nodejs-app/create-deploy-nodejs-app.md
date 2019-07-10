@@ -34,8 +34,8 @@
 
 您可以在操作系统上使用软件包管理器（推荐）或使用安装程序：[Download installer](https://nodejs.org/en/download/)  
 
-软件包管理器安装
-**Windows安装**
+软件包管理器安装  
+**Windows安装**  
 安装[Chocolatey](https://chocolatey.org)(windows package manager)  
 以管理员身份打开CMD
 ![n1](./img/n1.png)
@@ -49,7 +49,7 @@
 choco install nodejs
 ```
 
-**Mac安装**
+**Mac安装**  
 安装[Homebrew](https://brew.sh)（Mac包管理器），如果尚未安装, 在Mac terminal里面输入bash,安装brew
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
