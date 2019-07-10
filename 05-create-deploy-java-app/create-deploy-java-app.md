@@ -1,6 +1,6 @@
 <!-- TOC -->
 
-- [创建第一个Java App](#创建第一个java-app)
+- [创建并部署第一个Java App](#创建并部署第一个java-app)
   - [使用MTA模板准备一个Java app](#使用mta模板准备一个java-app)
     - [1. 从模板中创建一个新项目](#1-从模板中创建一个新项目)
     - [2. 找到你的项目](#2-找到你的项目)
@@ -16,7 +16,7 @@
     - [3. 打开Debugger](#3-打开debugger)
 
 <!-- /TOC -->
-# 创建第一个Java App
+# 创建并部署第一个Java App
 
 ## 使用MTA模板准备一个Java app 
 使用多目标应用程序（[Mult-Target Application - MTA](https://www.sap.com/docs/download/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.pdf)）模板准备构建简单的Java应用程序。
