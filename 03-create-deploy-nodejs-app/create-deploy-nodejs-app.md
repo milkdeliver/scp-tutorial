@@ -118,6 +118,8 @@ user@host:~/nodetutorial/myapp
 您应该在命令行上看到myapp在端口3000上侦听。 在浏览器中打开http://localhost:3000访问您的Web服务器时，会获得Hello World响应。
 
 ## 使用你的Cloud Foundry CLI部署你的Node.js App
+再部署之前，需要申请好Cloud Foundry相关账户，请参考 [01-get-trial-account](https://github.com/milkdeliver/scp-tutorial/blob/57a97aedf4911bd5f626bb7149fbfa189eeca587/01-get-trial-account/get-a-free-trial-account-on-SAP-cloud-platform.md),同时需要安装好Cloud Foundry先关命令行环境，请参考[02-get-start-with-cloud-foundry](https://github.com/milkdeliver/scp-tutorial/blob/57a97aedf4911bd5f626bb7149fbfa189eeca587/02-get-start-with-cloud-foundry/get-start-with-cloud-foundry.md)。  
+
 使用Cloud Foundry命令行界面准备要部署到SAP Cloud Platform的Node.js应用程序。
 ### 1. 创建mainfest文件
 在nodetutorial目录中创建manifest.yaml文件。 此文件是部署描述文件，包含将应用程序部署到SAP Cloud Platform Cloud Foundry实例所需的所有信息。
