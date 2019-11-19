@@ -1,3 +1,17 @@
+<!-- TOC -->
+
+- [C4C与微信集成处理用户ticket](#c4c与微信集成处理用户ticket)
+  - [集成背景介绍](#集成背景介绍)
+  - [集成准备工作](#集成准备工作)
+- [开发集成](#开发集成)
+  - [C4C](#c4c)
+    - [在C4C一端建立Mashup通道用于之后跟Wechat通信的Tunnal](#在c4c一端建立mashup通道用于之后跟wechat通信的tunnal)
+    - [在C4C端，建立用于通信的用户组](#在c4c端建立用于通信的用户组)
+  - [微信端](#微信端)
+    - [申请账号](#申请账号)
+  - [Agent Server](#agent-server)
+
+<!-- /TOC -->
 ## C4C与微信集成处理用户ticket
 本文档为您提供了一个基于B2B服务集成方案将SAP Cloud for Customer（C4C）租户与微信连接的示例
 
