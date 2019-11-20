@@ -10,6 +10,10 @@
   - [微信端](#微信端)
     - [申请账号](#申请账号)
   - [Agent Server](#agent-server)
+- [集成测试](#集成测试)
+  - [账号绑定](#账号绑定)
+  - [发送和查看工单信息](#发送和查看工单信息)
+  - [C4C查看工单和回复相应的信息](#c4c查看工单和回复相应的信息)
 
 <!-- /TOC -->
 ## C4C与微信集成处理用户ticket
@@ -153,7 +157,8 @@ module.exports = {
 
 第三步： build Front-End代码复制到Back-End中  
 ```bash
-i304185@C02Z168NLVDQ:~/Desktop/workspace/sap/C4CODataSampleCode$ cd Front-End/i304185@C02Z168NLVDQ:~/Desktop/workspace/sap/C4CODataSampleCode/Front-End$ npm run-script build -production
+i304185@C02Z168NLVDQ:~/Desktop/workspace/sap/C4CODataSampleCode$ cd Front-End/
+i304185@C02Z168NLVDQ:~/Desktop/workspace/sap/C4CODataSampleCode/Front-End$ npm run-script build -production
 ```
 编译好Front-End的代码之后，将/distx 下面的文件全部复制到Back-End views文件夹下面，覆盖之前的版本。
 ![agent](./img/agent.png)
@@ -174,6 +179,24 @@ applications:
 部署之后在cockpit里面查看app,部署好的app。
 ![cockpit-1](./img/cockpit-1.png)
 
+
+## 集成测试
+当上面所以都已经集成好了之后，部署好了之后。需要再修改微信端的配置
+![wechat-6](./img/wechat-6.png)
+
+用收集扫描二维码，打开测试账号客户端，可以看到微信公共账号上面已经有服务菜单生成。
+![wechat-7](./img/wechat-7.png)
+
+### 账号绑定
+点击Contact，输入你的用户信息和手机号码，将wechat和C4C的account绑定好。
+
+### 发送和查看工单信息
+- Create Ticket用于创建工单
+- Check List用于查看工单
+
+### C4C查看工单和回复相应的信息
+![ticket](./img/ticket.png)
+在C4C一端就能看到所有的信息，可以直接在上面回复。微信会通知用户。
 
 
 * <>,尖括号里面表示这是个变量，自己随意设置
